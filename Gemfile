@@ -69,3 +69,14 @@ end
 
 # second added Gem file // controller-tester
 "gem 'rails-controller-testing', group: [ :test ]"
+
+
+# group of added Gems to set up application
+#boostrap pre made components
+gem "bootstrap", "~> 5.2"
+gem "autoprefixer-rails"
+
+#fonts to insert into css and scss
+gem "font-awesome-sass", "~> 6.1"
+gem "simple_form"
+gem "sassc-rails"
