@@ -9,4 +9,10 @@ class ApplicationRecord < ActiveRecord::Base
   def list
     @list = list.movies.all
   end
+
+
+  def bookmarks
+    @bookmarks = Boomark.list.all(params[:name])
+  end
+
 end
