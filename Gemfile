@@ -64,3 +64,8 @@ group :development do
   # gem "spring"
 end
 
+# first added Gem file // rais
+"gem 'rspec-rails', group: [ :test ]"
+
+# second added Gem file // controller-tester
+"gem 'rails-controller-testing', group: [ :test ]"
