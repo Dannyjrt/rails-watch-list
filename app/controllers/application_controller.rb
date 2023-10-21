@@ -1,4 +1,6 @@
 class ApplicationController < ActionController::Base
 
-  get "movies", to:"index#movies"
+  get "movies", to:"movies#movies"
+
+  get "list", to:"movies#list"
 end

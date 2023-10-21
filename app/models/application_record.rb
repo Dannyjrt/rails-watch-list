@@ -5,4 +5,8 @@ class ApplicationRecord < ActiveRecord::Base
   def movies
     @movies = Movies.new(params[:name])
   end
+
+  def list
+    @list = list.movies.all
+  end
 end
